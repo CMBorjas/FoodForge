@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Christian\Documents\Personal\Personal Projects\FoodForge\FoodForge\ffvenv
+set VIRTUAL_ENV=C:\Users\cmand\Projects\FoodForge\FoodForge\ffvenv
 
 if not defined PROMPT set PROMPT=$P$G
 
