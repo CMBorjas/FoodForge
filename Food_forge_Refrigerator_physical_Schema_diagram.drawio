@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.3">
+  <diagram name="Page-1" id="bnlkUS-MZowzpN9jBt07">
+    <mxGraphModel dx="1050" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-1" value="Refridgerator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-3" value="Top Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-4" value="Mid Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-5" value="Bottom Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-6" value="Vegetable Crisper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-7" value="&lt;div&gt;Fruit Crisper&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-8" value="Meat Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-9" value="Top" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#6A00FF,#EFB6C8);fontColor=light-dark(#FFD2A0,#FFD2A0);strokeColor=#3700CC;fontStyle=1;labelBorderColor=none;labelBackgroundColor=light-dark(#A888B5, #8174a0);" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-11" value="Freezer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#6A00FF,#EFB6C8);fontColor=light-dark(#FFD2A0,#FFD2A0);strokeColor=#3700CC;fontStyle=1;labelBorderColor=none;labelBackgroundColor=light-dark(#A888B5, #8174a0);" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-12" value="Bottom Basket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-13" value="Bottom Basket(Left)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-14" value="Bottom Basket(right)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-15" value="Roller Shelft" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-19" value="RIght Door" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#6A00FF,#EFB6C8);fontColor=light-dark(#FFD2A0,#FFD2A0);strokeColor=#3700CC;fontStyle=1;labelBorderColor=none;labelBackgroundColor=light-dark(#A888B5, #8174a0);" vertex="1" parent="1">
+          <mxGeometry x="10" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-20" value="Left Door" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#6A00FF,#EFB6C8);fontColor=light-dark(#FFD2A0,#FFD2A0);strokeColor=#3700CC;fontStyle=1;labelBorderColor=none;labelBackgroundColor=light-dark(#A888B5, #8174a0);" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-21" value="Top Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-22" value="Mid Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-23" value="Bottom Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-24" value="Top Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-25" value="Mid Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WeMc0PxcGqTgbZeR9Azw-26" value="Bottom Shelf" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
