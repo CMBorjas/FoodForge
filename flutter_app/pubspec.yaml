@@ -1,0 +1,54 @@
+name: dietary_planning_app
+description: An OCR-based recipe extraction and dietary planning tool targeting Android and web.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"  # Adjust as per your installed Flutter SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.5        # For state management (alternative: bloc, riverpod)
+
+  # Networking
+  http: ^1.2.2           # For making HTTP requests to the backend
+
+  # OCR
+  google_ml_vision: ^0.0.8 # Google Vision for OCR functionality
+
+  # JSON Parsing
+  json_serializable: ^6.7.1 # To handle JSON data parsing and generation
+
+  # Flutter Web Support
+  flutter_web_plugins:
+    sdk: flutter           # Support for web-specific features
+
+  # UI and Design
+  flutter_svg: ^1.1.6      # For displaying SVG assets
+  flutter_slidable: ^0.6.0 # Swipeable lists, useful for recipe cards
+
+  # State Persistence
+  shared_preferences: ^2.1.0 # To store user preferences locally
+
+  # File Management
+  file_picker: ^5.0.0      # To allow users to upload PDF or image files
+
+  # Analytics (optional)
+  firebase_analytics: ^10.3.0 # Track app usage (useful if using Firebase)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter           # Default for testing Flutter applications
+
+  lint: ^2.0.0             # Linter to ensure code quality
+
+flutter:
+  uses-material-design: true
+
+  # Asset configuration
+  assets:
+    - assets/images/       # Add your default images or placeholders
+    - assets/fonts/        # Add custom fonts here
