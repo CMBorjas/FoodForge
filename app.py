@@ -1,9 +1,15 @@
 from flask import Flask, request, jsonify, render_template
 import os
 from werkzeug.utils import secure_filename
+from database import init_db, get_session, close_session
+from models import Receipt, User
 
 # Initialize the Flask app
 app = Flask(__name__)
+
+# Initialize database on first run
+with app.app_context():
+    init_db()
 
 # Define the upload folder
 upload_folder = 'uploads'
@@ -41,11 +47,16 @@ def upload_file():
         # add Logic to process the file here (OCR,etc.)
         return jsonify({
             'message': 'File uploaded successfully',
-            'fielname': filename,
-            'file_path': file.content_type
+            'filename': filename,
+            'file_path': file_path
             }), 200
     
     return jsonify({'error': 'File type not allowed'}), 400
+
+@app.teardown_appcontext
+def shutdown_session(exception=None):
+    """Close database session after each request."""
+    close_session()
 
 if __name__ == '__main__':
     app.run(debug=True)
